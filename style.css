@@ -1,0 +1,255 @@
+body {
+    background-color: rgb(236, 236, 236);
+    color: #ff6868;
+    margin: 5vw;
+    padding: 5vw 5vh;  
+    font-family: 'AUTHENTIC Sans';
+}
+
+p {
+    text-align: justify left;
+    font-size: 45pt;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    transition: 1.2s all;
+    text-decoration: underline 7.5px solid;
+    transform: skew(-20deg);
+}
+
+
+h1 {
+    font-size: 55pt;
+}
+
+h2 {
+    font-size: 27.5pt;
+}
+
+h1, h2, p {
+    font-weight: normal;
+}
+
+li {
+    margin-left: -2vw;
+    list-style: none;
+    font-size: 25pt;
+}
+
+video {
+    filter: brightness(60%);
+}
+
+#bgvideo {
+    position: fixed;
+    right: 0;
+    top: -50vh;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.content {
+    position: fixed;
+    bottom: 10vh;
+    color: white;
+    width: 100%;
+}
+
+/* SKÄRMANPASSNING STOR LAPTOP OCH DESKTOP */ /* SKÄRMANPASSNING STOR LAPTOP OCH DESKTOP */
+
+@media only screen and (min-width: 1200px) {
+
+    #w-about, #w-title {
+        display: grid;
+        hyphens: auto;
+        font-kerning: auto;
+    }
+    
+    #m-about, #m-title {
+        display: none;
+    }
+    
+
+    #bgvideo {
+        position: fixed;
+        right: 0;
+        top: -50vh;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+    }
+    .content {
+        position: fixed;
+        bottom: 10vh;
+        color: white;
+        width: 75%;
+    }
+
+}
+
+/* SKÄRMANPASSNING: IPAD */ /* SKÄRMANPASSNING: IPAD */ /* SKÄRMANPASSNING: IPAD */
+
+@media only screen and (min-width: 600px) and (max-width: 1080px ) {
+
+    video {
+        filter: brightness(60%);
+    }
+    
+    #bgvideo {
+        position: fixed;
+        right: 0;
+        top: -50vh;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+    }
+
+ #w-about, #w-title {
+    display: none;
+}
+    
+#m-about, #m-title {
+    display: grid;
+    hyphens: auto;
+    font-kerning: auto;
+    margin-bottom: 20vh;
+
+}
+
+.content {
+    position: fixed;
+    bottom: 10vh;
+    color: white;
+    width: 75%;
+}
+body {
+    background-color: rgb(236, 236, 236);
+    color: #ff6868;
+    margin: 5vw;
+    padding: 5vw 5vh;  
+    font-family: 'AUTHENTIC Sans';
+}
+
+p {
+    text-align: justify left;
+    font-size: 25pt;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    transition: 1.2s all;
+    text-decoration: underline 7.5px solid;
+    transform: skew(-20deg);
+}
+
+h1 {
+    font-size: 45pt;
+}
+
+h2 {
+    font-size: 27.5pt;
+}
+
+h1, h2, p {
+    font-weight: normal;
+}
+
+li {
+    margin-left: -4vw;
+    list-style: none;
+    font-size: 15pt;
+}
+}
+
+/* SKÄRMANPASSNING MOBIL SKÄRMANPASSNING MOBIL SKÄRMANPASSNING MOBIL SKÄRMANPASSNING MOBIL*/
+@media only screen and (max-width: 600px) {
+
+    #w-about, #w-title {
+        display: none;
+    }
+
+    #m-about, #m-title {
+        display: grid;
+        hyphens: auto;
+        font-kerning: auto;
+    }
+
+    body {
+        margin: 2vw;
+        padding: 5vw 5vh;  
+        font-family: 'AUTHENTIC Sans';
+    }
+    
+    p {
+        text-align: justify left;
+        font-size: 25pt;
+    }
+    
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    a:hover {
+        transition: 1.2s all;
+        text-decoration: underline 7.5px solid;
+    }
+    
+    #m-title {
+        margin-bottom: 15vh 
+    }
+    
+    h1 {
+        font-size: 35pt;
+    }
+    
+    h1, p {
+        font-weight: normal;
+    }
+    
+    li {
+        margin-left: -7.5vw;
+        list-style: none;
+        font-size: 15pt;
+        line-height: 22pt;
+    }
+    
+    video {
+        filter: brightness(50%);
+    }
+    
+    #bgvideo {
+        position: fixed;
+        right: 0;
+        top: -50vh;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+    }
+    
+    .content {
+        position: fixed;
+        bottom: 10vh;
+        color: white;
+        width: 75%;
+    }
+}
+
+@font-face {
+    font-family: 'AUTHENTIC Sans';
+    src: url('/fonts/AUTHENTICSans-60.woff2') format('woff2'),
+        url('/fonts/AUTHENTICSans-60.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
