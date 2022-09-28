@@ -6,6 +6,12 @@ body {
     font-family: 'AUTHENTIC Sans';
 }
 
+nav {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-auto-rows: 0.2fr;
+}
+
 p {
     text-align: justify left;
     font-size: 45pt;
