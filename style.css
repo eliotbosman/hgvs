@@ -191,6 +191,7 @@ li {
     }
 
     body {
+        background-image: url("/img/backgroundvideo.gif");
         margin: 2vw;
         padding: 5vw 5vh;  
         font-family: 'AUTHENTIC Sans';
@@ -235,6 +236,7 @@ li {
     }
     
     #bgvideo {
+        display: none;
         position: fixed;
         right: 0;
         top: -50vh;
