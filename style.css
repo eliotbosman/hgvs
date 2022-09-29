@@ -6,6 +6,11 @@ body {
     font-family: 'AUTHENTIC Sans';
 }
 
+.popup {
+    display: none;
+    position: absolute;
+}
+
 nav {
     display: grid;
     grid-template-columns: 0.5fr 0.5fr;
