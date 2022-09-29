@@ -33,6 +33,11 @@ a:hover {
     transform: skew(-20deg);
 }
 
+#contact:hover {
+    transition: 1.2s all;
+    text-decoration: underline 7.5px solid;
+}
+
 
 h1 {
     font-size: 55pt;
